@@ -1,4 +1,4 @@
-Step-by-step guide to building and deploying a Docker container using ubuntu:latest as the base image for an Apache server.
+**Step-by-step guide to building and deploying a Docker container using ubuntu:latest as the base image for an Apache server.**
 This workflow uses two separate jobs on GitHub-hosted runners:
 Build Job: Builds the image from ubuntu:latest and pushes it to Docker Hub.
 Deploy Job: Pulls that image on a fresh runner and starts the container.
