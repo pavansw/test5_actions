@@ -30,7 +30,7 @@ jobs:
 
 #======================
 #   JOB2
- deploy-container:
+    deploy-container:
     needs: build-and-push
     runs-on: ubuntu-latest
 
